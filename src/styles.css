@@ -1,14 +1,16 @@
-h1 {
-  font-size: 96px;
+body {
   font-family: poppins;
-  font-weight: 700;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
   max-width: 1200px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("Madrid.jpg");
+    url("..//src/images/Madrid.jpg");
 
   background-size: cover;
   background-position: center;
@@ -19,6 +21,10 @@ header {
 
 header h1 {
   color: white;
+  text-align: center;
+  font-size: 96px;
+  font-family: poppins;
+  font-weight: 700;
 }
 
 header h3 {
@@ -30,4 +36,5 @@ header h3 {
 header p {
   color: white;
   margin-bottom: 30px;
+  text-align: center;
 }
