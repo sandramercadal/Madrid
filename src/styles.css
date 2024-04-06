@@ -1,5 +1,4 @@
 body {
-  font-family: poppins;
   background-color: #272044;
 }
 
@@ -22,6 +21,7 @@ header {
 
 header h1 {
   color: white;
+  font-family: "Sail", system-ui;
   text-align: center;
   font-size: 96px;
   font-weight: 700;
