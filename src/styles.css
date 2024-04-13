@@ -9,7 +9,7 @@ body {
 header {
   max-width: 1200px;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("..//src/images/Madrid.jpg");
 
   background-size: cover;
@@ -207,9 +207,18 @@ footer ul {
   background-color: #462cb2;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .grid-twocolumn {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -275,5 +284,16 @@ section.neighbourhoods {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
+  }
+
+  .neighbourhoods h2 {
+    font-size: 16px;
   }
 }
