@@ -160,7 +160,7 @@ footer ul {
   color: #272044;
   font-size: 35px;
   font-weight: 700;
-  line-height: 2;
+  line-height: 1;
   text-align: center;
   margin: 0;
 }
@@ -293,6 +293,17 @@ section.instagram {
     padding: 4px 8px;
   }
 
+  main h3 {
+    font-size: 27px;
+  }
+
+  .neighbourhoods h3 {
+    font-size: 27px;
+  }
+
+  .instagram h3 {
+    font-size: 27px;
+  }
   section {
     padding: 30px;
   }
@@ -323,6 +334,6 @@ section.instagram {
   }
 
   .neighbourhoods h2 {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
