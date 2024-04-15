@@ -123,9 +123,9 @@ section {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 18px;
   opacity: 0.8;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -162,7 +162,7 @@ footer ul {
   font-weight: 700;
   line-height: 1;
   text-align: center;
-  margin: 0;
+  margin-bottom: 30px 0px;
 }
 
 .card h4 {
@@ -224,6 +224,7 @@ footer ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 64px;
+  align-items: stretch;
   font-family: poppins;
 }
 
@@ -236,7 +237,7 @@ footer ul {
 .footergrid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 64px;
+  grid-gap: 60px;
 }
 
 section.neighbourhoods,
@@ -295,6 +296,10 @@ section.instagram {
 
   main h3 {
     font-size: 27px;
+  }
+
+  main p {
+    font-size: 14px;
   }
 
   .neighbourhoods h3 {
