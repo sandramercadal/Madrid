@@ -22,7 +22,7 @@ header h1 {
   color: white;
   font-family: "Sail", system-ui;
   text-align: center;
-  font-size: 96px;
+  font-size: 97px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 30px 0px;
@@ -36,7 +36,7 @@ header h3 {
   text-transform: uppercase;
   font-weight: 400;
   line-height: 1.5;
-  font-size: 40px;
+  font-size: 42px;
   letter-spacing: 5px;
   margin: 0;
 }
@@ -171,6 +171,8 @@ footer ul {
   line-height: 1;
   color: #272044;
   margin: 0;
+  text-align: center;
+  padding-top: 20px;
 }
 .card p {
   font-size: 16px;
